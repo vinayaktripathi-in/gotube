@@ -1,0 +1,8 @@
+.logo {
+  position: absolute;
+  width: 254px;
+  height: 80px;
+  left: calc(50% - 254px / 2 - 513px);
+  top: 0px;
+  mix-blend-mode: screen;
+}
