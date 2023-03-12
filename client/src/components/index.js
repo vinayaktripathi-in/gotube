@@ -1,2 +1,2 @@
-export { default as Navbar } from "./Navbar/navbar";
-export { default as Main } from "./Main/main";
+export { default as Navbar } from "./Navbar";
+export { default as Feed } from "./Feed";
