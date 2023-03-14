@@ -1,18 +1,23 @@
-import React from "react";
-import "./navbar.css";
-import logo from "./Feed";
+import { Stack } from "@mui/material";
+import { Link } from "react-router-dom";
+import { logo } from "../utils/constants";
 
-function navbar() {
-  return (
-    <div className="navbar">
-      <img className="logo" src={logo} alt="logo" />
-      <div className="line-1"></div>
-      <form className="search-bar">
-        <input className="search-text" type="text" placeholder="Search.." name="search" />
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
-    </div>
-  );
-}
+const Navbar = () => (
+  <Stack
+    direction="row"
+    alignItems="center"
+    p={2}
+    sx={{
+      position: "sticky",
+      background: "#000",
+      top: 0,
+      justifyContent: "space-between",
+    }}
+  >
+    <Link to="/" style={{ display: "flex", alignItems: "center" }}>
+      <img src={logo} alt="logo" height={45} />
+    </Link>
+  </Stack>
+);
 
-export default navbar;
+export default Navbar;
