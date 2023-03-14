@@ -1,3 +1,4 @@
+import BlindIcon from '@mui/icons-material/Blind';
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
 import HomeIcon from "@mui/icons-material/Home";
 import CodeIcon from "@mui/icons-material/Code";
@@ -12,6 +13,7 @@ import TheaterComedyIcon from "@mui/icons-material/TheaterComedy";
 import FitnessCenterIcon from "@mui/icons-material/FitnessCenter";
 import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
 import { SpeedDialIcon } from "@mui/material";
+import { Blind } from "@mui/icons-material";
 
 export const logo = "https://i.ibb.co/Rcc6ftC/image.png";
 
@@ -19,7 +21,7 @@ export const categories = [
   { name: "New", icon: <HomeIcon /> },
   { name: "Home", icon: <GraphicEqIcon /> },
   { name: "Coding", icon: <SpeedDialIcon /> },
-  { name: "ReactJS", icon: <CodeIcon /> },
+  { name: "ReactJS", icon: <BlindIcon /> },
   { name: "NextJS", icon: <CodeIcon /> },
   { name: "Music", icon: <MusicNoteIcon /> },
   { name: "Education", icon: <SchoolIcon /> },
